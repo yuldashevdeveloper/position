@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@font-face {
+    font-family: lato;
+    src: url(../Lato/Lato-Light.ttf);
+}
+
+body{
+    background: #202E3D;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 22px;
+
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.nav-list li{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "lato";
+    color: #fff;
+}
+
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.description{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "lato";
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.main-icons .first-item{
+    width: 330px;
+    height: 270px;
+    border: 2px solid #46DBBF;
+    border-radius: 24px;
+    background-color: #2A3C4E;  
+    text-align: center;
+    padding-top: 40px;
+}
+
+.first-item  p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "lato";
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+
+.first-item button{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "lato";
+    background-color: #46DBBF;
+    color: #202E3D;
+    padding: 9px 110px 12px 73px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.main-icons{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 96px;
+}
+
+.last-item{
+    width: 330px;
+    height: 199px;
+    border: 2px solid #46DBBF;
+    border-radius: 24px;
+    background-color: #2A3C4E;  
+    text-align: center;
+    padding-top: 40px;
+   
+
+}
+
+.last-item  p{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "lato";
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+
+.last-item button{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "lato";
+    background-color: #46DBBF;
+    color: #202E3D;
+    padding: 9px 110px 12px 73px;
+    border: none;
+    border-radius: 14px;
+    text-align: center;
+}
+
+
+
+
+.right-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "lato";
+}
+
+.nav-btn button{
+    padding: 9px 26px;
+    border: 1.5px solid #FF9B52;
+    background-color: #202E3D;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "lato";
+    text-align: center;
+    transition: 0.7;
+    cursor: pointer;
+}
+
+.nav-btn button:hover{
+    color: #FF9B52;
+    background-color: #626060;
+    position: relative;
+}
+
+.nav-btn button:hover::after{
+    width: 100px;
+    height: 2px;
+    top: 1px;
+    color: red;
+    background-color: red;
+    position: relative;
+}
+
+
+
+.main{
+    display: flex;
+    gap: 30px;
+
+}
+
+.main-desc h1{
+    font-size: 34px;
+    font-weight: 800;
+    font-family: "lato";
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+
+.left-first-main{
+    width: 690px;
+    height: 200px;
+    border: none;
+    border-radius: 24px;
+    background-color: #2A3C4E;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.two-main{
+    width: 690px;
+    height: 180px;
+}
+
+.left-main h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "lato";
+    color: #46DBBF;
+    padding-bottom: 16px;
+
+} 
+
+.left-first-main p{
+    font-size: 18px;
+    font-family: "lato";
+    font-weight: 500;
+    color: #fff;
+}
+
+.right-first-main{
+    width: 690px;
+    height: 249px;
+    border: none;
+    border-radius: 24px;
+    background-color: #2A3C4E;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.right-main h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "lato";
+    color: #46DBBF;
+    padding-bottom: 16px;
+
+} 
+
+.right-first-main p{
+    font-size: 18px;
+    font-family: "lato";
+    font-weight: 500;
+    color: #fff;
+}
+
+.right-last-main{
+    width: 690px;
+    height: 296px;
+}
+
+
