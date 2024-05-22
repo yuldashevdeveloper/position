@@ -146,7 +146,7 @@ nav{
     font-family: "lato";
 }
 
-.nav-btn button{
+.nav-btn a{
     padding: 9px 26px;
     border: 1.5px solid #FF9B52;
     background-color: #202E3D;
@@ -158,6 +158,7 @@ nav{
     text-align: center;
     transition: 0.7;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav-btn button:hover{
@@ -253,5 +254,89 @@ nav{
     width: 690px;
     height: 296px;
 }
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.footer-logo-item h3{
+    font-size:38px ;
+    font-weight: 700;
+    font-family:"lato";
+    color: #fff;
+}
+
+.footer-logos{
+    gap: 20px;
+    display: flex;
+}
+
+.footer-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.footer-main div h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "lato";
+    color: #5F7897;
+    padding-bottom: 25px;
+}
+
+
+.footer-main div p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "lato";
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.footer-main div span{
+    width: 150px;
+    height: 150px;
+    padding: 66px 40px;
+    background-color: #FF9B52;
+    border-radius:50% ;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "lato";
+    color: #fff;
+}
+
+.footer-end{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 80px;
+}
+
+.footer-end div span{
+    width: 210px;
+    height: 77px;
+    padding: 24px 70px;
+    background-color: #042028;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "lato";
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+}
+
+.footer-end div p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "lato";
+    color: #8AB7C6;
+    padding-bottom: 15px;
+}
+
 
 
